@@ -30,7 +30,7 @@ Future Improvements:
 
 The 2D physics pipeline is desgined to be a developer friendly system where it is easy to change and add anything desired.
 
-## 2D Pathing Finding A*
+## 2D Path Finding A*
 
 A simple node-to-node 2D gridding system with developer friendly pathfinding searches. The utility of the system allows you to pass a reference to 2 dimensional
 set of nodes, to become configured into a grid with neighbours where you can then perform searches and change node properties at runtime.
@@ -68,3 +68,6 @@ Future Improvements:
 - Perlin noise generation
 - Extensions for useful mathatic operations
 
+
+Feel free to use the code provided however you like. 
+It would be nice to be referenced in any work but is not essential.
