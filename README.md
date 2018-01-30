@@ -1,6 +1,27 @@
 # Game-Dev-Tools
 My personal C++ library for game development tools
 
+## AI: Behaviour Tree
+
+The system for a behaivour tree is aimed to replicate the effect of an instance based tree builder by CodeCapers
+at https://github.com/codecapers/Fluent-Behaviour-Tree.
+
+It uses a fluent system which can be adapted to add just about any type of task desired.
+Existing Features:
+- Selector Node
+- Sequence Node
+- Parallel Node
+- Inverter Node
+- Successor Node
+- Conditional expressions to be evaluated to behahviour status
+- Tree Merging behaivour
+
+Future Improvements:
+- Weighted additions/Priority Nodes
+- Variety of Selector Nodes by priority
+- Variety of Sequence Nodes by priority
+- Priority based conditions
+
 ## Physics2D
 
 After untaking a task to build a physics pipline in c# for a university module, I decided to re-write everything in c++.
@@ -30,7 +51,7 @@ Future Improvements:
 
 The 2D physics pipeline is desgined to be a developer friendly system where it is easy to change and add anything desired.
 
-## 2D Path Finding A*
+## AI: 2D Path Finding A*
 
 A simple node-to-node 2D gridding system with developer friendly pathfinding searches. The utility of the system allows you to pass a reference to 2 dimensional
 set of nodes, to become configured into a grid with neighbours where you can then perform searches and change node properties at runtime.
